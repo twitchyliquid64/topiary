@@ -2306,15 +2306,6 @@ checksum = "a6cb138bb79a146c1bd460005623e142ef0181e3d0219cb493e02f7d08a35695"
 
 [[package]]
 name = "itertools"
-version = "0.11.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
-dependencies = [
- "either",
-]
-
-[[package]]
-name = "itertools"
 version = "0.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "413ee7dfc52ee1a4949ceeb7dbc8a33f2d6c088194d9f922fb8318faf1f01186"
@@ -4305,14 +4296,11 @@ dependencies = [
  "clap",
  "clap_complete",
  "env_logger",
- "futures",
- "itertools 0.11.0",
  "log",
  "miette",
  "nickel-lang-core",
  "pastey",
  "predicates",
- "serde",
  "tabled",
  "tempfile",
  "tokio",
@@ -4320,7 +4308,6 @@ dependencies = [
  "topiary-config",
  "topiary-core",
  "topiary-queries",
- "topiary-tree-sitter-facade",
 ]
 
 [[package]]
@@ -4331,17 +4318,14 @@ dependencies = [
  "clap",
  "directories",
  "gix",
- "itertools 0.11.0",
  "libloading",
  "log",
  "nickel-lang-core",
  "rayon",
  "serde",
  "tempfile",
- "toml",
  "topiary-tree-sitter-facade",
  "topiary-web-tree-sitter-sys",
- "tree-sitter",
  "tree-sitter-language",
  "tree-sitter-loader",
 ]
@@ -4352,8 +4336,6 @@ version = "0.7.3"
 dependencies = [
  "criterion",
  "env_logger",
- "futures",
- "itertools 0.11.0",
  "log",
  "miette",
  "pretty_assertions",
@@ -4363,7 +4345,6 @@ dependencies = [
  "serde_json",
  "streaming-iterator",
  "test-log",
- "thiserror 2.0.18",
  "tokio",
  "tokio-test",
  "topiary-tree-sitter-facade",

@@ -13,7 +13,6 @@ readme.workspace = true
 license.workspace = true
 
 [dependencies]
-itertools = { workspace = true }
 log = { workspace = true }
 miette = { workspace = true }
 pretty_assertions = { workspace = true }
@@ -25,10 +24,8 @@ tokio = { workspace = true, features = ["macros", "rt"] }
 topiary-tree-sitter-facade = { workspace = true }
 tree-sitter = { workspace = true }
 rayon = { workspace = true }
-thiserror = { workspace = true }
 
 [target.'cfg(target_arch = "wasm32")'.dependencies]
-futures = { workspace = true }
 topiary-web-tree-sitter-sys.workspace = true
 
 [dev-dependencies]
